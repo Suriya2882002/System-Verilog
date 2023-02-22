@@ -1,0 +1,8 @@
+# vsim -do {run -all;exit;} -l break_op.log -c work.break_sv 
+# Loading sv_std.std
+# Loading work.break_sv
+# run -all 
+# array[0]=0
+# array[1]=1
+# ----Calling break----
+# exit 

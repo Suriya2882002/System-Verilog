@@ -1,0 +1,9 @@
+compile:
+	vlib work
+	vlog -sv blocking.sv
+
+simulate :
+	vsim work.blocking -l blocking_log.log -c -do "run -all;exit;"
+
+all:
+	make compile && make simulate
